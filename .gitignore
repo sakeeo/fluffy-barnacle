@@ -1,0 +1,28 @@
+# Ignore .env file containing sensitive API keys
+.env
+
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Ignore output folders and files
+output_*/
+*.csv
+*.png
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
